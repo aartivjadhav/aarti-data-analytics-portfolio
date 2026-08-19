@@ -493,4 +493,4 @@ I enjoy working with messy data, investigating inconsistencies, finding meaningf
 
 ## 📫 Connect With Me
 
-**[LinkedIn](www.linkedin.com/in/aarti-kadam-3327423a)**
+### **🔗 [LinkedIn](https://www.linkedin.com/in/aarti-kadam-3327423a/)**
