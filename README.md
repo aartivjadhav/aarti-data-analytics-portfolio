@@ -3,13 +3,81 @@
 
 Welcome to my data analytics portfolio.
 
-I am a data professional with experience working across **data analysis, reporting, data visualisation, SQL, Python, Power BI and Microsoft Fabric**. My projects demonstrate my ability to take raw data, clean and transform it, analyse patterns, build meaningful visualisations, and communicate insights through interactive dashboards.
+I am a data professional with experience working across **data analysis, reporting, data visualisation, SQL, Python, Power BI and Microsoft Fabric**. My projects demonstrate my ability to take raw data, clean and transform it, analyse patterns, build meaningful visualisations and communicate insights through interactive dashboards.
 
----
 
 ## 📌 Projects
 
-### 1. HR Data Analysis Dashboard
+### 1. Supply Chain Analysis Dashboard
+
+**Microsoft Power BI | DAX | Power Query | Data Visualisation**
+
+#### 📋 Project Overview
+
+A Power BI dashboard developed to analyse and monitor key **supply chain and commercial performance metrics**, including sales, profit, shipping times and shipping costs.
+
+#### 🎯 Problem Statement
+
+Supply chain performance involves multiple interconnected metrics. The objective of this project was to bring these measures together into an interactive Power BI report that makes it easier to monitor performance and identify trends and areas requiring attention.
+
+#### 🔧 Tools & Technologies
+
+* Microsoft Power BI
+* Power Query
+* DAX
+* Data Modelling
+* Data Visualisation
+* Supply Chain Analytics
+
+#### 🔍 What I Did
+
+1. Prepared and transformed the source data using **Power Query**.
+2. Cleaned and structured the data for reporting.
+3. Developed analytical measures using **DAX**.
+4. Designed an interactive Power BI data model.
+5. Created visualisations to analyse:
+
+   * Sales
+   * Profit
+   * Shipping costs
+   * Shipping times
+   * Supply chain performance
+6. Designed the report to allow users to interactively explore business performance.
+7. Applied appropriate visualisation techniques to make key performance indicators easier to interpret.
+
+#### 📊 Analysis Areas
+
+The report focuses on:
+
+* Sales performance
+* Profitability
+* Shipping performance
+* Shipping costs
+* Operational trends
+* Supply chain performance
+
+#### 💡 What I Learned
+
+This project strengthened my ability to move from **raw operational information to an interactive business intelligence solution**, with particular focus on Power Query transformations, DAX measures, data modelling and dashboard design.
+
+#### Who Can Use the Dashboard?
+
+* Supply Chain Managers
+* Operations Managers
+* Procurement teams
+* Logistics teams
+* Finance / Commercial teams
+* Senior Management
+
+#### How they could use it:
+To monitor sales and profitability, understand shipping costs and times, identify operational trends and support supply chain performance monitoring.
+
+#### 🧠 Skills Demonstrated
+
+**Power BI | DAX | Power Query | Data Modelling | Data Visualisation | Supply Chain Analytics | Business Intelligence**
+
+
+### 2. HR Data Analysis Dashboard
 
 **Python | Pandas | NumPy | Plotly | Streamlit**
 
@@ -62,75 +130,31 @@ The dashboard provides an interactive view of:
 * Attrition patterns
 * Demographic trends
 
+#### 🔗 Live Dashboard
+
+**[View the Interactive HR Analytics Dashboard](https://dashboard-nsdgbr7p38vtkd8pvgtau7.streamlit.app/)**
+
+
 #### 💡 Key Learning & Discoveries
 
 This project demonstrated how raw employee-level data can be transformed into an interactive analytical application. It also provided practical experience in combining **Python-based data preparation with interactive visual analytics and application deployment**.
+
+#### Who Can Use the Dashboard?
+
+* HR Managers
+* People & Culture teams
+* HR Business Partners
+* Workforce Planning teams
+* Senior Management
+
+#### How they could use it:
+To monitor workforce composition, analyse employee performance, identify attrition patterns and investigate differences across departments, roles and demographic groups.
 
 #### 🧠 Skills Demonstrated
 
 **Python | Pandas | NumPy | Plotly | Streamlit | Data Cleaning | Data Wrangling | Exploratory Data Analysis | Data Visualisation**
 
----
-
-# 2. Supply Chain Analysis Dashboard
-
-**Microsoft Power BI | DAX | Power Query | Data Visualisation**
-
-#### 📋 Project Overview
-
-A Power BI dashboard developed to analyse and monitor key **supply chain and commercial performance metrics**, including sales, profit, shipping times and shipping costs.
-
-#### 🎯 Problem Statement
-
-Supply chain performance involves multiple interconnected metrics. The objective of this project was to bring these measures together into an interactive Power BI report that makes it easier to monitor performance and identify trends and areas requiring attention.
-
-#### 🔧 Tools & Technologies
-
-* Microsoft Power BI
-* Power Query
-* DAX
-* Data Modelling
-* Data Visualisation
-* Supply Chain Analytics
-
-#### 🔍 What I Did
-
-1. Prepared and transformed the source data using **Power Query**.
-2. Cleaned and structured the data for reporting.
-3. Developed analytical measures using **DAX**.
-4. Designed an interactive Power BI data model.
-5. Created visualisations to analyse:
-
-   * Sales
-   * Profit
-   * Shipping costs
-   * Shipping times
-   * Supply chain performance
-6. Designed the report to allow users to interactively explore business performance.
-7. Applied appropriate visualisation techniques to make key performance indicators easier to interpret.
-
-#### 📊 Analysis Areas
-
-The report focuses on:
-
-* Sales performance
-* Profitability
-* Shipping performance
-* Shipping costs
-* Operational trends
-* Supply chain performance
-
-#### 💡 What I Learned
-
-This project strengthened my ability to move from **raw operational information to an interactive business intelligence solution**, with particular focus on Power Query transformations, DAX measures, data modelling and dashboard design.
-
-#### 🧠 Skills Demonstrated
-
-**Power BI | DAX | Power Query | Data Modelling | Data Visualisation | Supply Chain Analytics | Business Intelligence**
-
----
-
-# 3. WHO Global Health Analytics Dashboard
+### 3. WHO Global Health Analytics Dashboard
 
 **Microsoft Fabric | Power BI | PySpark | API | Data Engineering | Data Analytics**
 
@@ -218,13 +242,25 @@ It covers:
 * Power BI reporting
 * Translating data into actionable insights
 
+#### Who Can Use the Dashboard?
+
+* Public Health Organisations
+* Government Health Departments
+* Healthcare Researchers
+* NGOs
+* International Health Organisations
+* Policy Analysts
+
+#### How they could use it:
+To compare health outcomes across countries and regions, identify disparities, examine changes over time and support evidence-based public health research and planning.
+
 #### 🧠 Skills Demonstrated
 
 **Microsoft Fabric | Power BI | PySpark | Python | REST APIs | Data Engineering | ETL | Data Modelling | Star Schema | Data Visualisation | Analytics**
 
 ---
 
-# 4. AdventureWorks Sales Dashboard
+### 4. AdventureWorks Sales Dashboard
 
 **Power BI | SQL Server | Excel | Web Data | Power Query | DAX**
 
@@ -271,7 +307,8 @@ Performed data preparation and transformation operations including:
 
 * Renaming columns
 * Creating calculated columns
-* Creating measures
+* Join queries to combine the data
+* Creating views
 * Cleaning and structuring the data
 
 The main queries were organised as:
@@ -298,7 +335,7 @@ The data was then:
 
 Imported US state sales information from Excel.
 
-Used **Power Query Merge Queries** to combine the Excel data with the state information obtained from the web.
+Used **Power Query Merge Queries** to combine the Excel data with the sales data from SQL.
 
 ### 6. Dashboard Development
 
@@ -327,7 +364,7 @@ The dashboard was designed to provide a view of:
 
 #### 💡 What I Learned
 
-This project provided practical experience in **combining heterogeneous data sources** and transforming them into a single analytical model.
+This project provided practical experience in **combining different data sources** and transforming them into a single analytical model.
 
 It also strengthened my understanding of:
 
@@ -339,8 +376,17 @@ It also strengthened my understanding of:
 * Interactive dashboard design
 * Power BI Service publishing
 
-> **Note:** The original `.pbix` file is no longer available, so this project is documented based on the implementation and workflow completed during development.
+#### Who Can Use the Dashboard?
 
+* Sales Managers
+* Sales Operations teams
+* Regional Managers
+* Commercial Analysts
+* Business Managers
+* Senior Management
+
+#### How they could use it:
+To monitor sales performance, compare geographic performance, understand customer activity and identify areas requiring further investigation.
 #### 🧠 Skills Demonstrated
 
 **Power BI | SQL Server | SQL | Power Query | Excel | Web Data Integration | DAX | Data Modelling | Data Visualisation | Power BI Service**
@@ -383,7 +429,7 @@ Across these projects, I have worked with:
 * Microsoft Fabric
 * REST APIs
 * ETL Pipelines
-* Bronze / Silver / Gold Architecture
+* Medallion Architecture - Bronze / Silver / Gold 
 * Data Transformation
 * Data Modelling
 * Star Schema
@@ -404,17 +450,17 @@ Across my projects, I generally follow a structured analytical workflow:
 ```text
 Understand the Problem
         ↓
-Explore the Data
+  Explore the Data
         ↓
-Clean & Validate
+  Clean & Validate
         ↓
-Transform
+    Transform
         ↓
-Model
+      Model
         ↓
-Analyse
+     Analyse
         ↓
-Visualise
+    Visualise
         ↓
 Identify Insights
         ↓
@@ -425,27 +471,9 @@ My focus is not only on creating dashboards, but on understanding **what the dat
 
 ---
 
-# 📂 Project Structure
-
-Each project repository may contain:
-
-```text
-├── README.md
-├── data/
-├── notebooks/
-├── sql/
-├── scripts/
-├── dashboard/
-└── screenshots/
-```
-
-Where applicable, I include the source code, SQL queries, notebooks, data preparation steps, dashboard screenshots and documentation.
-
----
-
 # 👩‍💻 About Me
 
-I am building my career in **Data Analytics and Business Intelligence**, with a background in computer science and hands-on experience across Python, SQL, Power BI and Microsoft Fabric.
+I am building my career in **Data Analytics and Business Intelligence**, with a background in computer science and hands-on experience across Excel, Python, SQL, Power BI and Microsoft Fabric.
 
 I enjoy working with messy data, investigating inconsistencies, finding meaningful patterns and turning complex information into clear and useful reporting solutions.
 
@@ -465,8 +493,4 @@ I enjoy working with messy data, investigating inconsistencies, finding meaningf
 
 ## 📫 Connect With Me
 
-**GitHub:** [Add GitHub profile link]
-
-**LinkedIn:** [Add LinkedIn profile link]
-
-**Portfolio Website:** [Add website link when available]
+**[LinkedIn](www.linkedin.com/in/aarti-kadam-3327423a)**
