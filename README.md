@@ -295,13 +295,13 @@ The project involved integrating data from:
 
 #### 🔍 What I Did
 
-### 1. SQL Server Data
+#### 1. SQL Server Data
 
 Connected Power BI to the **AdventureWorksLT SQL Server database** and wrote a SQL query to retrieve the required sales data.
 
 The data was then loaded into Power Query for further preparation.
 
-### 2. Data Preparation
+#### 2. Data Preparation
 
 Performed data preparation and transformation operations including:
 
@@ -316,11 +316,11 @@ The main queries were organised as:
 * **Customers**
 * **Sales**
 
-### 3. Data Modelling
+#### 3. Data Modelling
 
 Created relationships between the **Customers** and **Sales** tables in Power BI's Model view to enable analysis of sales performance by customer attributes.
 
-### 4. Web Data Integration
+#### 4. Web Data Integration
 
 Retrieved US state codes from a web source and imported the data into Power Query.
 
@@ -331,13 +331,13 @@ The data was then:
 * Unnecessary columns removed
 * Structured for integration with the sales data
 
-### 5. Excel Data Integration
+#### 5. Excel Data Integration
 
 Imported US state sales information from Excel.
 
 Used **Power Query Merge Queries** to combine the Excel data with the sales data from SQL.
 
-### 6. Dashboard Development
+#### 6. Dashboard Development
 
 Created an interactive Power BI dashboard using a range of visualisations, including:
 
@@ -348,7 +348,7 @@ Created an interactive Power BI dashboard using a range of visualisations, inclu
 * Funnel charts
 * Map visualisations
 
-### 7. Publishing
+#### 7. Publishing
 
 Published the completed report to **Power BI Service**.
 
